@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-green {
+  background-color: #228B22;
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #1d761d;
+}
+
+.btn-gold {
+  background-color: #FFD700;
+  color: black;
+}
+
+.btn-gold:hover {
+  background-color: #e6c200;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Section Title */
+.section-title {
+  color: #228B22;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 16px;
+}
